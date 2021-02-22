@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600&display=swap');
 
 *{
     margin:0
@@ -22,10 +23,9 @@ body{
 }
 
 h1{
-    font-family: 'DotGothic16', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 3rem;
     text-align: center;
-    border;
 }
 
 #imagen{
@@ -39,7 +39,6 @@ h1{
     border-radius: 5%; 
     align-items: center;
     justify-content: center;
-    
 }
 
     /** LISTA DE PAISES **/

@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+*{
+    margin:0
+}
+
+body{
+    background-color: rgb(86, 198, 202);
+}
+
+.menu{
+    width: 100%;
+    background-color: violet;
+    padding-top:2rem;
+    padding-bottom: 1rem;
+    background-image: url("imagenes/foto-nubes.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: 0.2rem solid white;
+    box-shadow: blue;
+}
+
+h1{
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    border;
+}
+
+#imagen{
+    display: flex;
+    justify-content;
+    width: 50%;
+    align-items:center;
+} 
+
+.foto{
+    border-radius: 5%; 
+    align-items: center;
+    justify-content: center;
+    
+}
+
+    /** LISTA DE PAISES **/
+
+#contenedor{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+    
+.lista{
+    display:flex;
+    width: 65%;
+    justify-content: center; 
+    
+}
+
+ul{
+    background-color:white;
+    list-style: none;
+    font-size: 1.5rem;
+    width: 40%;
+    border: 0.2rem solid;
+    padding-top: 1rem;
+    border-radius: 5%;
+    padding-left: 0;
+}
+
+.icom, #peru{
+    padding-left: 3rem;
+}
+
+/**
+li{
+    background-color:burlywood;
+}  **/
+
+li:hover{
+    color: blue;
+    font-weight: bold;
+}
+
+li, .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+    /** BUSCADOR **/
+
+h2{
+    margin-left: 6rem;
+}
+#localidad{
+    width: 25rem;
+    margin-left: 5rem;
+}
+
+#boton{
+    position: relative;
+    left: 25rem;
+    top: 1rem;
+    font-size: 130%;
+    border-radius: 40%;
+    width: 8rem;
+    background-color: royalblue;
+    height: 3rem;
+    text-align: center;
+}
+
+
+/*#buscador{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgba(204, 36, 31, 0.397);
+    font-size: 24px;
+    font-weight: bolder;
+    position: relative;
+    left: 10px;
+}
+*/
+
+/*
+    font-weight: bolder;
+    color:rgba(204, 36, 31, 0.397);
+    background-color:rgb(189, 135, 135);
+    width:max-content;
+    height:max-content;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    
+    border-radius: 25px;
+    */

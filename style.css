@@ -80,7 +80,21 @@ li:hover{
     color: blue;
     font-weight: bold;
     cursor:pointer;
-} 
+    font-size: 1.6rem;
+}
+#argentina{
+    position: relative;
+    right:0.8rem;
+}
+#uruguay{
+    position: relative;
+    right: 0.5rem;
+}
+
+#peru{
+    position: relative;
+    left: 1rem;
+}
 
     /** BUSCADOR **/
 
